@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+
+body {
+  display: flex;
+  flex-direction: row;
+  padding: 200px 0 5px 200px;
+}
+.flex-container {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  border: 2px solid #418FDA;
+  width: 45px;
+  height: 40px;
+  text-align: center;
+}
+
+.xl {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+/*Dropdown CSS*/
+ul .dropdown {
+  padding: 0 20px 0 0;
+  list-style: none;
+  background: #ffffff;
+  width: 0px;
+  margin: 15px;
+}
+
+ul .shirtsize {
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+ul li .shirtsize a:hover{
+  color: #418FDA;
+  background: #ffffff;
+}
+
+ul li ul.dropdown {
+  background: #ffffff;
+  display: none;
+  position: absolute;
+  z-index: 999;
+}
+
+ul li:hover ul.dropdown{
+  display: block;
+}
+ul li ul.dropdown li{
+  display: block;
+  }
+
+a {
+  text-decoration: none;
+  color: #418FDA;
+  margin: 10px;
+}
+
+#pink-square {
+ color: #DF90CA;
+}
+
+#yellow-square {
+  color: #F5C45A;
+}
+
+#green-square {
+  color: #87C182;
+}
+
+a:hover {
+  color: #ffffff;
+}
+.flex-item:hover {
+background: #418FDA;
+}
+
+img {
+  border: 2px solid #418FDA;
+  width: 200px;
+  height: 250px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  color: #418FDA;
+  display: inline;
+  position: relative;
+  padding: 0 120px 0 0;
+  margin: 0;
+}
+
+.second {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  color: #418FDA;
+}
