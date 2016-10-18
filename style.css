@@ -2,10 +2,22 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 
 body {
-  display: flex;
-  flex-direction: row;
-  padding: 200px 0 5px 200px;
+  width: 100%;
 }
+
+section {
+width: 300px;
+margin: 0;
+display: block;
+}
+
+img {
+  border: 2px solid #418FDA;
+  height: 250px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
 .flex-container {
   display: flex;
   padding: 0px;
@@ -88,13 +100,6 @@ a:hover {
 background: #418FDA;
 }
 
-img {
-  border: 2px solid #418FDA;
-  width: 200px;
-  height: 250px;
-  padding: 20px;
-  margin-right: 20px;
-}
 
 p {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -111,4 +116,18 @@ p {
   font-size: 20px;
   font-weight:bold;
   color: #418FDA;
+}
+
+@media screen and (min-width: 700px)  {
+  section {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  section {
+  width: 33%;
+  float: left;
+  }
 }
